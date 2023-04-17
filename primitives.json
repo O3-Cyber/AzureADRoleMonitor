@@ -1,0 +1,79 @@
+[
+    {
+        "action": "microsoft.directory/groups/owners/update",
+        "tier": "0",
+        "description": "Can update the owner of privileged groups"
+    },
+    {
+        "action": "microsoft.directory/groups/allProperties/allTasks",
+        "tier": "0",
+        "description": "Can update the owner of privileged groups, or add members to privileged groups"
+    },
+    {
+        "action": "microsoft.directory/groupsAssignableToRoles/allProperties/update",
+        "tier": "0",
+        "description": "Can update members of role-assignable groups"
+    },
+    {
+        "action": "microsoft.directory/roleAssignments/allProperties/allTasks",
+        "tier": "0",
+        "description": "Can create directory role assignments"
+    },
+    {
+        "action": "microsoft.directory/servicePrincipals/allProperties/allTasks",
+        "tier": "0",
+        "description": "Can create application secrets, and impersonate them"
+    },
+    {
+        "action": "microsoft.directory/applications/credentials/update",
+        "tier": "0",
+        "description": "Can create application secrets, and impersonate them"
+    },
+    {
+        "action": "microsoft.directory/applications/owners/update",
+        "tier": "0",
+        "description": "Can make self an application owner, then create a secret to impersonate the application"
+    },
+    {
+        "action": "microsoft.directory/servicePrincipals/owners/update",
+        "tier": "0",
+        "description": "Can make self a service principal owner, then create a secret to impersonate the service principal"
+    },
+    {
+        "action": "microsoft.directory/servicePrincipals/credentials/update",
+        "tier": "0",
+        "description": "Can create service principal secrets, and impersonate them"
+    },
+    {
+        "action": "microsoft.directory/groups.security/owners/update",
+        "tier": "0",
+        "description": "Update the owner of any security group, and add self as member to become more privileged"
+    },
+    {
+        "action": "microsoft.directory/groups.unified/owners/update",
+        "tier": "0",
+        "description": "Update the owner of any unified group, and add self as member to become more privileged"
+    },
+    {
+        "action": "microsoft.directory/groups.security/members/update",
+        "tier": "0",
+        "description": "Add self as member to any security group to become more privileged"
+    },
+    {
+        "action": "microsoft.directory/groups.unified/members/update",
+        "tier": "0",
+        "description": "Add self as member to any unified group to become more privileged"
+    },
+    {
+        "action": "microsoft.directory/groups/members/update",
+        "tier": "0",
+        "description": "Add self as member to any group to become more privileged"
+    },
+    {
+        "action": "microsoft.directory/groups/owners/update",
+        "tier": "0",
+        "description": "Update the owner of any group, and add self as member to become more privileged"
+    }
+    
+    
+]
