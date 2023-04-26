@@ -5,7 +5,7 @@
       {
         "action": "microsoft.directory/groups/allProperties/allTasks",
         "tier": "0",
-        "description": "Can update the owner of privileged groups, or add members to privileged groups"
+        "description": "an update the owner of privileged groups, or add members to privileged groups"
       },
       {
         "action": "microsoft.directory/groupsAssignableToRoles/allProperties/update",
