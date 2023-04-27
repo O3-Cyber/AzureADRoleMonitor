@@ -13,8 +13,8 @@
 |Partner Tier2 Support|microsoft.directory/groups/owners/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Directory Readers||2|
 |Directory Writers|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
-|Exchange Administrator|microsoft.directory/groups.unified/owners/update<br/>microsoft.directory/groups.unified/members/update<br/>|0|
-|SharePoint Administrator|microsoft.directory/groups.unified/owners/update<br/>microsoft.directory/groups.unified/members/update<br/>|0|
+|Exchange Administrator|microsoft.directory/groups.unified/owners/update<br/>microsoft.directory/groups.unified/members/update<br/>|1|
+|SharePoint Administrator|microsoft.directory/groups.unified/owners/update<br/>microsoft.directory/groups.unified/members/update<br/>|1|
 |Skype for Business Administrator||2|
 |Device Users||2|
 |Azure AD Joined Device Local Administrator||2|
@@ -45,7 +45,7 @@
 |Teams Communications Administrator||2|
 |Teams Communications Support Engineer||2|
 |Teams Communications Support Specialist||2|
-|Teams Administrator|microsoft.directory/groups.unified/owners/update<br/>microsoft.directory/groups.unified/members/update<br/>|0|
+|Teams Administrator|microsoft.directory/groups.unified/owners/update<br/>microsoft.directory/groups.unified/members/update<br/>|1|
 |Insights Administrator||2|
 |Message Center Privacy Reader||2|
 |External ID User Flow Administrator||2|
@@ -87,7 +87,7 @@
 |Windows Update Deployment Administrator||2|
 |Windows 365 Administrator|microsoft.directory/groups.security/owners/update<br/>microsoft.directory/groups.security/members/update<br/>|0|
 |Edge Administrator||2|
-|Yammer Administrator|microsoft.directory/groups.unified/owners/update<br/>microsoft.directory/groups.unified/members/update<br/>|0|
+|Yammer Administrator|microsoft.directory/groups.unified/owners/update<br/>microsoft.directory/groups.unified/members/update<br/>|1|
 |Authentication Extensibility Administrator||2|
 |Virtual Visits Administrator||2|
 |Insights Analyst||2|
