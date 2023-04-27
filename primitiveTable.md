@@ -1,18 +1,18 @@
 | Role | Dangerous Actions | Tier |
 |------|------------|----|
-|Global Administrator|microsoft.directory/groups/allProperties/allTasks<br/>microsoft.directory/groupsAssignableToRoles/allProperties/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>microsoft.directory/servicePrincipals/allProperties/allTasks<br/>|0|
+|Global Administrator|microsoft.directory/groups/allProperties/allTasks<br/>microsoft.directory/groupsAssignableToRoles/allProperties/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>microsoft.directory/servicePrincipals/allProperties/allTasks<br/>microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin<br/>microsoft.directory/directoryRoles/allProperties/allTasks<br/>|0|
 |Guest User||2|
 |Restricted Guest User||2|
 |Guest Inviter||2|
-|User Administrator|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>|0|
+|User Administrator|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Helpdesk Administrator||2|
 |Service Support Administrator||2|
 |Billing Administrator||2|
 |User||2|
-|Partner Tier1 Support|microsoft.directory/groups/owners/update<br/>microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>|0|
-|Partner Tier2 Support|microsoft.directory/groups/owners/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>|0|
+|Partner Tier1 Support|microsoft.directory/groups/owners/update<br/>microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
+|Partner Tier2 Support|microsoft.directory/groups/owners/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Directory Readers||2|
-|Directory Writers|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>|0|
+|Directory Writers|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Exchange Administrator|microsoft.directory/groups.unified/owners/update<br/>microsoft.directory/groups.unified/members/update<br/>|0|
 |SharePoint Administrator|microsoft.directory/groups.unified/owners/update<br/>microsoft.directory/groups.unified/members/update<br/>|0|
 |Skype for Business Administrator||2|
@@ -21,19 +21,19 @@
 |Device Join||2|
 |Workplace Device Join||2|
 |Compliance Administrator||2|
-|Directory Synchronization Accounts|microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/servicePrincipals/credentials/update<br/>|0|
+|Directory Synchronization Accounts|microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/servicePrincipals/credentials/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Device Managers||2|
-|Application Administrator|microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/servicePrincipals/credentials/update<br/>|0|
+|Application Administrator|microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/servicePrincipals/credentials/update<br/>microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Application Developer||2|
 |Security Reader||2|
-|Security Administrator||2|
-|Privileged Role Administrator|microsoft.directory/groupsAssignableToRoles/allProperties/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>|0|
+|Security Administrator|microsoft.directory/conditionalAccessPolicies/create<br/>microsoft.directory/conditionalAccessPolicies/delete<br/>microsoft.directory/domains/federation/update<br/>|0|
+|Privileged Role Administrator|microsoft.directory/groupsAssignableToRoles/allProperties/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>microsoft.directory/directoryRoles/allProperties/allTasks<br/>|0|
 |Intune Administrator|microsoft.directory/groups.security/owners/update<br/>microsoft.directory/groups.security/members/update<br/>|0|
-|Cloud Application Administrator|microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/servicePrincipals/credentials/update<br/>|0|
+|Cloud Application Administrator|microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/servicePrincipals/credentials/update<br/>microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Customer LockBox Access Approver||2|
 |Dynamics 365 Administrator||2|
 |Power BI Administrator||2|
-|Conditional Access Administrator||2|
+|Conditional Access Administrator|microsoft.directory/conditionalAccessPolicies/create<br/>microsoft.directory/conditionalAccessPolicies/delete<br/>|1|
 |Reports Reader||2|
 |Message Center Reader||2|
 |Azure Information Protection Administrator||2|
@@ -52,7 +52,7 @@
 |External ID User Flow Attribute Administrator||2|
 |B2C IEF Keyset Administrator||2|
 |B2C IEF Policy Administrator||2|
-|External Identity Provider Administrator||2|
+|External Identity Provider Administrator|microsoft.directory/domains/federation/update<br/>|0|
 |Compliance Data Administrator||2|
 |Security Operator||2|
 |Kaizala Administrator||2|
@@ -66,7 +66,7 @@
 |Groups Administrator|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>|0|
 |Power Platform Administrator||2|
 |Azure DevOps Administrator||2|
-|Hybrid Identity Administrator|microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>|0|
+|Hybrid Identity Administrator|microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/domains/federation/update<br/>|0|
 |Office Apps Administrator||2|
 |Network Administrator||2|
 |Insights Business Leader||2|
@@ -82,7 +82,7 @@
 |Attribute Definition Reader||2|
 |Attribute Assignment Reader||2|
 |Exchange Recipient Administrator||2|
-|Identity Governance Administrator|microsoft.directory/groups/members/update<br/>|0|
+|Identity Governance Administrator|microsoft.directory/groups/members/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Cloud App Security Administrator||2|
 |Windows Update Deployment Administrator||2|
 |Windows 365 Administrator|microsoft.directory/groups.security/owners/update<br/>microsoft.directory/groups.security/members/update<br/>|0|
