@@ -287,7 +287,7 @@
       {
         "action": "microsoft.directory/servicePrincipals/credentials/update",
         "tier": "0",
-        "description": "reate service principal secrets, and impersonate them"
+        "description": "Create service principal secrets, and impersonate them"
       },
       {
         "action": "microsoft.directory/servicePrincipals/appRoleAssignedTo/update",
@@ -323,7 +323,7 @@
       {
         "action": "microsoft.directory/servicePrincipals/credentials/update",
         "tier": "0",
-        "description": "reate service principal secrets, and impersonate them"
+        "description": "Create service principal secrets, and impersonate them"
       },
       {
         "action": "microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin",
@@ -437,7 +437,7 @@
       {
         "action": "microsoft.directory/servicePrincipals/credentials/update",
         "tier": "0",
-        "description": "reate service principal secrets, and impersonate them"
+        "description": "Create service principal secrets, and impersonate them"
       },
       {
         "action": "microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin",
