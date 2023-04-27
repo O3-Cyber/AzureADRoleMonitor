@@ -4,15 +4,15 @@
 |Guest User||2|
 |Restricted Guest User||2|
 |Guest Inviter||2|
-|User Administrator|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
+|User Administrator|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Helpdesk Administrator||2|
 |Service Support Administrator||2|
 |Billing Administrator||2|
 |User||2|
-|Partner Tier1 Support|microsoft.directory/groups/owners/update<br/>microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
-|Partner Tier2 Support|microsoft.directory/groups/owners/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
+|Partner Tier1 Support|microsoft.directory/groups/owners/update<br/>microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
+|Partner Tier2 Support|microsoft.directory/groups/owners/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Directory Readers||2|
-|Directory Writers|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
+|Directory Writers|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Exchange Administrator|microsoft.directory/groups.unified/owners/update<br/>microsoft.directory/groups.unified/members/update<br/>|1|
 |SharePoint Administrator|microsoft.directory/groups.unified/owners/update<br/>microsoft.directory/groups.unified/members/update<br/>|1|
 |Skype for Business Administrator||2|
@@ -63,7 +63,7 @@
 |Printer Administrator||2|
 |Printer Technician||2|
 |Authentication Policy Administrator||2|
-|Groups Administrator|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/groups/owners/update<br/>|0|
+|Groups Administrator|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>|0|
 |Power Platform Administrator||2|
 |Azure DevOps Administrator||2|
 |Hybrid Identity Administrator|microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/domains/federation/update<br/>|0|
