@@ -100,4 +100,5 @@
 |Permissions Management Administrator||2|
 |Organizational Messages Writer||2|
 |Viva Pulse Administrator||2|
+|Extended Directory User Administrator||2|
 
