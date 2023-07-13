@@ -32,7 +32,7 @@
 |Cloud Application Administrator|microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/servicePrincipals/credentials/update<br/>microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Customer LockBox Access Approver||2|
 |Dynamics 365 Administrator||2|
-|Power BI Administrator||2|
+|Fabric Administrator||2|
 |Conditional Access Administrator|microsoft.directory/conditionalAccessPolicies/create<br/>microsoft.directory/conditionalAccessPolicies/delete<br/>|1|
 |Reports Reader||2|
 |Message Center Reader||2|
