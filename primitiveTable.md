@@ -66,7 +66,7 @@
 |Groups Administrator|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>|0|
 |Power Platform Administrator||2|
 |Azure DevOps Administrator||2|
-|Hybrid Identity Administrator|microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/domains/federation/update<br/>|0|
+|Hybrid Identity Administrator|microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>microsoft.directory/domains/federation/update<br/>|0|
 |Office Apps Administrator||2|
 |Network Administrator||2|
 |Insights Business Leader||2|
