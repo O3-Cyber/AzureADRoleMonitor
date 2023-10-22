@@ -41,7 +41,7 @@
 |License Administrator||2|
 |Cloud Device Administrator||2|
 |Authentication Administrator||2|
-|Privileged Authentication Administrator||2|
+|Privileged Authentication Administrator|microsoft.directory/users/authenticationMethods/create|0|
 |Teams Communications Administrator||2|
 |Teams Communications Support Engineer||2|
 |Teams Communications Support Specialist||2|
