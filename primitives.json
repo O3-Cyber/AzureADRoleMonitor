@@ -103,5 +103,10 @@
         "action": "microsoft.directory/directoryRoles/allProperties/allTasks",
         "tier": "0",
         "description": "Update custom directory roles to include additional privileges."
+    },
+    {
+        "action": "microsoft.directory/users/authenticationMethods/create",
+        "tier": "0",
+        "description": "Update authentication methods for users"
     }
 ]
