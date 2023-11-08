@@ -1,6 +1,6 @@
 | Role | Dangerous Actions | Tier |
 |------|------------|----|
-|Global Administrator|microsoft.directory/groups/allProperties/allTasks<br/>microsoft.directory/groupsAssignableToRoles/allProperties/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>microsoft.directory/servicePrincipals/allProperties/allTasks<br/>microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin<br/>microsoft.directory/directoryRoles/allProperties/allTasks<br/>|0|
+|Global Administrator|microsoft.directory/groups/allProperties/allTasks<br/>microsoft.directory/groupsAssignableToRoles/allProperties/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>microsoft.directory/servicePrincipals/allProperties/allTasks<br/>microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin<br/>microsoft.directory/directoryRoles/allProperties/allTasks<br/>microsoft.directory/users/authenticationMethods/create<br/>|0|
 |Guest User||2|
 |Restricted Guest User||2|
 |Guest Inviter||2|
@@ -40,8 +40,8 @@
 |Desktop Analytics Administrator||2|
 |License Administrator||2|
 |Cloud Device Administrator||2|
-|Authentication Administrator||2|
-|Privileged Authentication Administrator||2|
+|Authentication Administrator|microsoft.directory/users/authenticationMethods/create<br/>|0|
+|Privileged Authentication Administrator|microsoft.directory/users/authenticationMethods/create<br/>|0|
 |Teams Communications Administrator||2|
 |Teams Communications Support Engineer||2|
 |Teams Communications Support Specialist||2|
@@ -102,4 +102,6 @@
 |Global Secure Access Administrator||2|
 |Viva Pulse Administrator||2|
 |Extended Directory User Administrator||2|
+|Attribute Log Administrator||2|
+|Attribute Log Reader||2|
 
