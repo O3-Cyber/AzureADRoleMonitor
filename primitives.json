@@ -2,111 +2,155 @@
     {
         "action": "microsoft.directory/groups/owners/update",
         "tier": "0",
-        "description": "Update the owner of any group, and add self as member to become more privileged"
+        "description": "Update the owner of any group, and add self as member to become more privileged",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/groups/allProperties/allTasks",
         "tier": "0",
-        "description": "Can update the owner of privileged groups, or add members to privileged groups"
+        "description": "Can update the owner of privileged groups, or add members to privileged groups",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/groupsAssignableToRoles/allProperties/update",
         "tier": "1",
-        "description": "Can update members of role-assignable groups"
+        "description": "Can update members of role-assignable groups",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/roleAssignments/allProperties/allTasks",
         "tier": "0",
-        "description": "Can create directory role assignments"
+        "description": "Can create directory role assignments",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/servicePrincipals/allProperties/allTasks",
         "tier": "0",
-        "description": "Can create application secrets, and impersonate them"
+        "description": "Can create application secrets, and impersonate them",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/applications/credentials/update",
         "tier": "0",
-        "description": "Can create application secrets, and impersonate them"
+        "description": "Can create application secrets, and impersonate them",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/applications/owners/update",
         "tier": "0",
-        "description": "Can make self an application owner, then create a secret to impersonate the application"
+        "description": "Can make self an application owner, then create a secret to impersonate the application",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/servicePrincipals/owners/update",
         "tier": "0",
-        "description": "Make self a service principal owner, then create a secret to impersonate the service principal"
+        "description": "Make self a service principal owner, then create a secret to impersonate the service principal",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/servicePrincipals/credentials/update",
         "tier": "0",
-        "description": "Create service principal secrets, and impersonate them"
+        "description": "Create service principal secrets, and impersonate them",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/groups.security/owners/update",
         "tier": "0",
-        "description": "Update the owner of any security group, and add self as member to become more privileged"
+        "description": "Update the owner of any security group, and add self as member to become more privileged",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/groups.unified/owners/update",
         "tier": "1",
-        "description": "Update the owner of any unified group, and add self as member to become more privileged"
+        "description": "Update the owner of any unified group, and add self as member to become more privileged",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/groups.security/members/update",
         "tier": "0",
-        "description": "Add self as member to any security group to become more privileged"
+        "description": "Add self as member to any security group to become more privileged",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/groups.unified/members/update",
         "tier": "1",
-        "description": "Add self as member to any unified group to become more privileged"
+        "description": "Add self as member to any unified group to become more privileged",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/groups/members/update",
         "tier": "0",
-        "description": "Add self as member to any group to become more privileged"
+        "description": "Add self as member to any group to become more privileged",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin",
         "tier": "0",
-        "description": "Consent to privileged permissions on a Service Principal and elevate privileges using those permissions"
+        "description": "Consent to privileged permissions on a Service Principal and elevate privileges using those permissions",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin",
         "tier": "1",
-        "description": "Consent to high-privileged application permissions on a Service Principal, except for Graph. May be used to elevate access on applications or SaaS offerings."
+        "description": "Consent to high-privileged application permissions on a Service Principal, except for Graph. May be used to elevate access on applications or SaaS offerings.",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/servicePrincipals/appRoleAssignedTo/update",
         "tier": "1",
-        "description": "Add self to a privileged role on a service principal, and assume the privileges of the Service Principal."
+        "description": "Add self to a privileged role on a service principal, and assume the privileges of the Service Principal.",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/conditionalAccessPolicies/create",
         "tier": "1",
-        "description": "Create prioritized conditional access policies to bypass restrictions"
+        "description": "Create prioritized conditional access policies to bypass restrictions",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/conditionalAccessPolicies/delete",
         "tier": "1",
-        "description": "Remove conditional access policies to bypass restrictions"
+        "description": "Remove conditional access policies to bypass restrictions",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/domains/federation/update",
         "tier": "0",
-        "description": "Federate access to the directory via a malicious Identity Provider, and take over current user accounts."
+        "description": "Federate access to the directory via a malicious Identity Provider, and take over current user accounts.",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/directoryRoles/allProperties/allTasks",
         "tier": "0",
-        "description": "Update custom directory roles to include additional privileges."
+        "description": "Update custom directory roles to include additional privileges.",
+        "inapplicableRoles": [],
+        "roleName": ""
     },
     {
         "action": "microsoft.directory/users/authenticationMethods/create",
         "tier": "0",
-        "description": "Update authentication methods for users"
+        "description": "Create a TAP for a global administrator to take over the Global Administrator's account",
+        "inapplicableRoles": ["Authentication Administrator"],
+        "roleName": ""
     }
 ]
