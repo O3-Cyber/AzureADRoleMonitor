@@ -104,4 +104,5 @@
 |Extended Directory User Administrator||2|
 |Attribute Log Administrator||2|
 |Attribute Log Reader||2|
+|Dynamics 365 Business Central Administrator||2|
 
