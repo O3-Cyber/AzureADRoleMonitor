@@ -1,7 +1,7 @@
 | Role | Dangerous Actions | Tier |
 |------|------------|----|
 |Global Administrator|microsoft.directory/groups/allProperties/allTasks<br/>microsoft.directory/groupsAssignableToRoles/allProperties/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>microsoft.directory/servicePrincipals/allProperties/allTasks<br/>microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin<br/>microsoft.directory/directoryRoles/allProperties/allTasks<br/>microsoft.directory/users/authenticationMethods/create<br/>|0|
-|Guest User||2|
+|Guest User|microsoft.directory/users/authenticationMethods/create<br/>|0|
 |Restricted Guest User||2|
 |Guest Inviter||2|
 |User Administrator|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
@@ -105,4 +105,6 @@
 |Attribute Log Administrator||2|
 |Attribute Log Reader||2|
 |Dynamics 365 Business Central Administrator||2|
+|Microsoft 365 Migration Administrator||2|
+|Organizational Branding Administrator||2|
 
