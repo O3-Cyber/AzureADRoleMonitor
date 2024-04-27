@@ -109,4 +109,5 @@
 |Microsoft 365 Migration Administrator||2|
 |SharePoint Embedded Administrator||2|
 |Organizational Branding Administrator||2|
+|Organizational Messages Approver||2|
 
