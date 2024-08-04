@@ -21,7 +21,7 @@
 |Device Join||2|
 |Workplace Device Join||2|
 |Compliance Administrator||2|
-|Directory Synchronization Accounts|microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/servicePrincipals/credentials/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
+|Directory Synchronization Accounts||2|
 |Device Managers||2|
 |Application Administrator|microsoft.directory/applications/credentials/update<br/>microsoft.directory/applications/owners/update<br/>microsoft.directory/servicePrincipals/owners/update<br/>microsoft.directory/servicePrincipals/credentials/update<br/>microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-application-admin<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Application Developer||2|
@@ -110,4 +110,5 @@
 |SharePoint Embedded Administrator||2|
 |Organizational Branding Administrator||2|
 |Organizational Messages Approver||2|
+|On Premises Directory Sync Account||2|
 
