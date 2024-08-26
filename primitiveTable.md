@@ -2,7 +2,7 @@
 |------|------------|----|
 |Global Administrator|microsoft.directory/groups/allProperties/allTasks<br/>microsoft.directory/groupsAssignableToRoles/allProperties/update<br/>microsoft.directory/roleAssignments/allProperties/allTasks<br/>microsoft.directory/servicePrincipals/allProperties/allTasks<br/>microsoft.directory/servicePrincipals/managePermissionGrantsForAll.microsoft-company-admin<br/>microsoft.directory/directoryRoles/allProperties/allTasks<br/>microsoft.directory/users/authenticationMethods/create<br/>|0|
 |Guest User|microsoft.directory/users/authenticationMethods/create<br/>|0|
-|Restricted Guest User||2|
+|Restricted Guest User|microsoft.directory/users/authenticationMethods/create<br/>|0|
 |Guest Inviter||2|
 |User Administrator|microsoft.directory/groups/owners/update<br/>microsoft.directory/groups/members/update<br/>microsoft.directory/servicePrincipals/appRoleAssignedTo/update<br/>|0|
 |Helpdesk Administrator||2|
