@@ -77,6 +77,7 @@
 |Knowledge Administrator|microsoft.directory/groups.security/owners/update<br/>microsoft.directory/groups.security/members/update<br/>|0|
 |Knowledge Manager|microsoft.directory/groups.security/owners/update<br/>microsoft.directory/groups.security/members/update<br/>|0|
 |Domain Name Administrator||2|
+|AI Administrator||2|
 |Attribute Definition Administrator||2|
 |Attribute Assignment Administrator||2|
 |Attribute Definition Reader||2|
