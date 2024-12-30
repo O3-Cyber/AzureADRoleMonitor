@@ -113,4 +113,6 @@
 |Organizational Messages Approver||2|
 |Microsoft 365 Backup Administrator||2|
 |On Premises Directory Sync Account||2|
+|Attribute Provisioning Reader||2|
+|Attribute Provisioning Administrator||2|
 
