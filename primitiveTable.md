@@ -115,4 +115,7 @@
 |On Premises Directory Sync Account||2|
 |Attribute Provisioning Reader||2|
 |Attribute Provisioning Administrator||2|
+|Global Secure Access Log Reader||2|
+|People Administrator||2|
+|IoT Device Administrator||2|
 
