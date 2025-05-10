@@ -111,6 +111,7 @@
 |SharePoint Embedded Administrator||2|
 |Organizational Branding Administrator||2|
 |Organizational Messages Approver||2|
+|Microsoft Graph Data Connect Administrator||2|
 |Microsoft 365 Backup Administrator||2|
 |On Premises Directory Sync Account||2|
 |Attribute Provisioning Reader||2|
