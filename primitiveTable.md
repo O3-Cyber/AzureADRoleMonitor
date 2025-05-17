@@ -105,12 +105,14 @@
 |Extended Directory User Administrator||2|
 |Attribute Log Administrator||2|
 |Attribute Log Reader||2|
+|Teams Reader||2|
 |Teams Telephony Administrator||2|
 |Dynamics 365 Business Central Administrator||2|
 |Microsoft 365 Migration Administrator||2|
 |SharePoint Embedded Administrator||2|
 |Organizational Branding Administrator||2|
 |Organizational Messages Approver||2|
+|Microsoft Graph Data Connect Administrator||2|
 |Microsoft 365 Backup Administrator||2|
 |On Premises Directory Sync Account||2|
 |Attribute Provisioning Reader||2|
