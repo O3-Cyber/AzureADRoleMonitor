@@ -118,7 +118,10 @@
 |Attribute Provisioning Reader||2|
 |Attribute Provisioning Administrator||2|
 |Global Secure Access Log Reader||2|
+|Organizational Data Source Administrator||2|
 |People Administrator||2|
 |IoT Device Administrator||2|
 |Viva Glint Tenant Administrator||2|
+|Places Administrator||2|
+|Dragon Administrator||2|
 
