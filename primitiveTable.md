@@ -123,5 +123,7 @@
 |IoT Device Administrator||2|
 |Viva Glint Tenant Administrator||2|
 |Places Administrator||2|
+|SharePoint Backup Administrator||2|
+|Exchange Backup Administrator||2|
 |Dragon Administrator||2|
 
