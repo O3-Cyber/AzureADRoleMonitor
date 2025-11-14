@@ -1,5 +1,10 @@
 # AzureADRoleMonitor
 
+This is now an archive. We do not maintain this list anymore.
+
+We recommend [this repo](https://github.com/emiliensocchi/azure-tiering) from Emilien Socchi for insight into IAM attack paths in Azure and EntraID. 
+
+
 ## What is this project?
 
 Azure AD Role Monitor is a small project that scans Azure AD built in roles, and automatically identifies sensitive or dangeorus roles based on the actions that the role is able to perform on an Azure AD tenant.
